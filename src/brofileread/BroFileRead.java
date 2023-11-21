@@ -15,7 +15,10 @@ public class BroFileRead {
             while (data != -1) {
                 System.out.print((char)data);
                 data = reader.read();
+                //
             }
+            
+            
             reader.close();
 
         } catch (FileNotFoundException ex) {
